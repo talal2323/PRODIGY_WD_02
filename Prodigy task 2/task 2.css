@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('bg\ image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background for better readability */
+    border: none; /* Remove card border */
+    border-radius: 10px; /* Rounded corners */
+    color: black; /* Ensure text color is white */
+}
+
+.display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lap-item {
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.js">
+    <link rel="stylesheet" href="task 2.css">
+</head>
+<body>
+<br><br>
+    <h1 class="heading"> Stop Watch Application </h1>
+
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h1 class="display">00:00:00</h1>
+                        <div class="btn-group" role="group" aria-label="Stopwatch controls">
+                            <button class="btn btn-primary start">Start</button>
+                            <button class="btn btn-secondary pause" disabled>Pause</button>
+                            <button class="btn btn-danger reset" disabled>Reset</button>
+                            <button class="btn btn-warning lap" disabled>Lap</button>
+                        </div>
+                        <ul class="list-group list-group-flush laps mt-3"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="task 2.js"></script>
+</body>
+</html>
